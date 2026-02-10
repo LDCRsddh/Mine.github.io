@@ -1,0 +1,9 @@
+---
+import MainGridLayout from '@layouts/MainGridLayout.astro'
+import ArchivePanel from '@components/ArchivePanel.astro'
+import { UNCATEGORIZED } from '@constants/constants'
+---
+
+<MainGridLayout title='归档'>
+    <ArchivePanel categories={[UNCATEGORIZED]}></ArchivePanel>
+</MainGridLayout>
